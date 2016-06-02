@@ -183,6 +183,12 @@ nav li a:hover{
     text-align: center;
 }
 
+.offers p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    margin-bottom: 50px;
+}
+
 .offers-item{
     height: 300px;
 }
