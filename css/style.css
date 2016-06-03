@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Ubuntu&effect=3d|3d-float");
-@import url("https://fonts.googleapis.com/css?family=Open Sans&effect=3d|3d-float");
-@import url("https://fonts.googleapis.com/css?family=Signika:700&effect=3d|3d-float");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu&effect=3d|3d-float|anaglyph");
+@import url("https://fonts.googleapis.com/css?family=Open Sans&effect=3d|3d-float|anaglyph");
+@import url("https://fonts.googleapis.com/css?family=Signika:700&effect=3d|3d-float|anaglyph");
 body{
     margin: 0px;
     padding: 0px;
@@ -186,21 +186,22 @@ nav li a:hover{
 .offers p{
     font-family: 'Ubuntu', sans-serif;
     font-size: large;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .offers-item{
-    height: 300px;
+    margin 0px
 }
 
 .offers-item img{
+    padding-top: 25px;
     display: block;
     margin: auto;
-    height: 128px;
+    height: 200px;
 }
 
 .offers-item h1{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Signika', sans-serif;
 }
 
 .offers-item ul{
@@ -208,6 +209,7 @@ nav li a:hover{
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
 }
+
 
 .btn-pricing{
     font-family: 'Ubuntu', sans-serif;
@@ -225,4 +227,24 @@ nav li a:hover{
     text-decoration: none;
     transition-duration: 0.4s;
         -webkit-transition-duration: 0.4s; /* Safari */
+}
+
+.payment{
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.payment ul{
+    list-style: none;
+}
+
+.payment ul li{
+    display: inline;
+}
+
+.payment ul li img{
+    margin: auto;
+    height: 50px;
 }
