@@ -248,3 +248,14 @@ nav li a:hover{
     margin: auto;
     height: 50px;
 }
+
+.connectes{
+    margin-top: 50px;
+}
+
+.connectes p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: large;
+    margin-bottom: 10px;
+    text-align: center;
+}
