@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PulseRP :: Membres</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/animate.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <!-- PRE HEADER -->
+    <div class="pre-header">
+        <span class="slots">
+          <i class="fa fa-user fa-2x" ></i><span class="slots-text">-- Connectés</span><span class="members">-- Inscrits</span>
+        </span>
+        <span class="sign-in">
+          <i class="fa fa-lock fa-lg" ></i> <a href="members.html">Espace Membre</a>
+        </span>
+    </div>
+
+    <!-- HEADER -->
+    <div class="header">
+      <img src="img/logo.png" alt="logo" />
+
+      <!-- MENU -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="shop.html">Boutique</a></li>
+          <li><a href="connectes.html">Joueurs</a></li>
+          <li><a href="http://forum.pulserp.space">Forum</a></li>
+        </ul>
+      </nav>
+      <!-- END MENU -->
+    </div>
+
+    <!-- SLIDER -->
+    <div class="slider shop">
+      <h1 class="font-effect-3d animated bounceInRight">Espace Membres</h1>
+    </div>
+
+
+    <!-- LOGIN / REGISTER -->
+    <div class="container members">
+        <div class="row">
+            <!-- LOGIN -->
+            <div class="col-md-6 animated fadeIn">
+                <h1>Connexion</h1>
+                <form>
+                    <div class="form-group col-md-6">
+                        <label for="pseudo">Email ou Pseudo</label>
+                        <input type="text" class="form-control" id="pseudo" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="password">Mot de Passe</label>
+                        <input type="password" class="form-control" id="password" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Entrer</button>
+                </form>
+            </div>
+            <!-- REGISTER -->
+            <div class="col-md-6 animated fadeIn">
+                <h1>Inscription</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="pseudo">Pseudo</label>
+                        <input type="text" class="form-control" id="pseudo" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="steam">STEAM ID (<a href="https://steamid.io/" target="_blank">Disponible ici</a>)<i class="fa fa-steam"></i></label>
+                        <input type="text" class="form-control" id="steam" placeholder="STEAM_0:0:00000000" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Mot de Passe</label>
+                        <input type="password" class="form-control" id="password" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Confirmer Mot de Passe</label>
+                        <input type="password" class="form-control" id="password" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">M'inscrire</button>
+                </form>
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- END LOGIN/REGISTER -->
+
+
+
+
+  </body>
+</html>
